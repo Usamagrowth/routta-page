@@ -1,4 +1,5 @@
-import { Clock, ShieldCheck, MapPin, CreditCard, Share2, Phone, DollarSign, Navigation, Star, Smartphone, Heart } from 'lucide-react';
+import { Clock, ShieldCheck, MapPin, CreditCard, Share2, Phone,  Navigation, Star, Smartphone, Heart } from 'lucide-react';
+import { TbCurrencyNaira } from 'react-icons/tb';
 
 const WhyChoose = () => {
   const features = [
@@ -8,12 +9,12 @@ const WhyChoose = () => {
     { icon: CreditCard, title: "Multiple Payment Options", description: "Pay with cash, card, or mobile money" },
     { icon: Share2, title: "Trip Sharing", description: "Share your trip details with loved ones" },
     { icon: Phone, title: "Emergency Assistance", description: "24/7 support for your safety" },
-    { icon: DollarSign, title: "Transparent Pricing", description: "Know your fare before you ride" },
+    { icon: TbCurrencyNaira, title: "Transparent Pricing", description: "Know your fare before you ride" },
     { icon: Navigation, title: "Reliable Navigation", description: "Optimized routes for faster travel" },
     { icon: Star, title: "Driver Ratings", description: "Rate your drivers to maintain quality" },
     { icon: Smartphone, title: "Clean Interface", description: "Easy-to-use app for everyone" },
     { icon: Heart, title: "Designed for Africa", description: "Built for African cities and needs" },
-    { icon: DollarSign, title: "Affordable Rides", description: "Competitive pricing for everyone" },
+    { icon: TbCurrencyNaira, title: "Affordable Rides", description: "Competitive pricing for everyone" },
   ];
 
   return (

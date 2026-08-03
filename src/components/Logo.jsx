@@ -8,11 +8,13 @@ const Logo = ({ size = "medium" }) => {
   };
 
   return (
+    <a href="#hero">
     <img 
       src={routtaLogo} 
       alt="Routta" 
       className={sizeClasses[size]}
     />
+    </a>
   );
 };
 

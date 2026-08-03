@@ -41,7 +41,7 @@ const Hero = () => {
 
           {/* Phone Mockup with Booking Card */}
           <div className="relative">
-            <div className="bg-gray-900 rounded-[3rem] p-3 shadow-2xl max-w-sm mx-auto">
+            <div className="bg-gray-900 rounded-[3rem] p-2 shadow-2xl max-w-sm mx-auto">
               <div className="bg-white rounded-[2.5rem] overflow-hidden">
                 {/* Phone Header */}
                 <div className="bg-gray-100 px-6 py-4 flex items-center justify-between">
