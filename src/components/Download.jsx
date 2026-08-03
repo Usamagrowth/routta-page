@@ -1,5 +1,5 @@
 import { Smartphone, Apple} from 'lucide-react';
-import { FaInstagram, FaXTwitter, FaFacebook } from 'react-icons/fa6';
+import { FaInstagram, FaXTwitter, FaFacebook, FaWhatsapp, FaTiktok } from 'react-icons/fa6';
 import { IoLogoGooglePlaystore } from 'react-icons/io5';
 
 const Download = () => {
@@ -61,30 +61,39 @@ const Download = () => {
            <div>
            <h3 className="text-2xl font-bold p-2 text-white">Follow Us</h3>
             <div className="flex space-x-4 p-2">
-              <a
-                href="https://facebook.com/routta"
+              <a href="https://www.facebook.com/share/1Cbbez1EyL/"
                target="_blank"
                rel="noopener noreferrer"
                 className="flex items-center gap-4 p-4 rounded-xl bg-white border border-gray-200 hover:border-black transition-colors"
                >
                <FaFacebook className='text-emerald-600' size={20} />
               </a>
-             <a
-               href="https://instagram.com/routta_africa"
+             <a href="https://instagram.com/routta_africa"
                target="_blank" rel="noopener noreferrer"
                className="flex items-center gap-4 p-4 rounded-xl bg-white border border-gray-200 hover:border-black transition-colors"
               >
               <FaInstagram className='text-emerald-600' size={20} />
                </a>
-               <a
-                 href="https://twitter.com/routta_africa"
+               <a href="https://twitter.com/routta_africa"
                 target="_blank" rel="noopener noreferrer"
                 className="flex items-center gap-4 p-4 rounded-xl bg-white border border-gray-200 hover:border-black transition-colors"
              >
            <FaXTwitter className='text-emerald-600' size={20} />
            </a>
+           <a href="https://www.tiktok.com/@routta_africa"
+                target="_blank" rel="noopener noreferrer"
+                className="flex items-center gap-4 p-4 rounded-xl bg-white border border-gray-200 hover:border-black transition-colors"
+             >
+           <FaTiktok className='text-emerald-600' size={20} />
+           </a>
+           <a href="https://whatsapp.com/channel/0029VbCe5ed545unxMgdQT2M"
+                target="_blank" rel="noopener noreferrer"
+                className="flex items-center gap-4 p-4 rounded-xl bg-white border border-gray-200 hover:border-black transition-colors"
+             >
+           <FaWhatsapp className='text-emerald-600' size={20} />
+           </a>
           </div>
-         </div>
+          </div>
           </div>
         </div>
       </div>

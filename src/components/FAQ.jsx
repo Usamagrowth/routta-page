@@ -7,11 +7,11 @@ const FAQ = () => {
   const faqs = [
     {
       question: "How does Routta work?",
-      answer: "Routta connects you with verified drivers for bikes, cars, and vans. Simply enter your pickup and destination, choose your vehicle type, and get matched with a nearby driver. Complete your booking through our mobile app.",
+      answer: "Routta connects you with verified drivers for bikes, cars, buses, and vans. Simply enter your pickup and destination, choose your vehicle type, and get matched with a nearby driver. Complete your booking through our mobile app.",
     },
     {
       question: "Which vehicles are available?",
-      answer: "We offer three vehicle types: Bike for quick trips through traffic, Car for comfortable everyday travel, and Van for groups, airport transfers, and larger luggage.",
+      answer: "We offer four vehicle types: Bike for quick trips through traffic, Car for comfortable everyday travel, Bus for affordable group transportation, and Van for groups, airport transfers, and larger luggage.",
     },
     {
       question: "Can I schedule rides?",

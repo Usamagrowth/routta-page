@@ -1,4 +1,3 @@
-import React from 'react';
 import { Rocket, Shield, MapPin, Users } from 'lucide-react';
 
 const Trust = () => {
@@ -26,7 +25,7 @@ const Trust = () => {
   ];
 
   return (
-    <section className="py-16 lg:py-24 bg-gradient-to-b from-white to-gray-50">
+    <section className="py-16 lg:py-24 bg-linear-to-b from-white to-gray-50">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">

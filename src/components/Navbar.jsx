@@ -75,10 +75,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
              <a href="#faq" className="block text-lg font-medium text-gray-600 hover:text-emerald-600 transition-colors" onClick={() => setIsMenuOpen(false)}>
                FAQ
              </a>
-             <a href="#contact" className="block text-lg font-medium text-gray-600 hover:text-emerald-600 transition-colors" onClick={() => setIsMenuOpen(false)}>
-               Contact
-             </a>
-             <div className="pt-6 border-t border-gray-100 flex flex-col gap-3">
+          <div className="pt-6 border-t border-gray-100 flex flex-col gap-3">
              </div>
            </div>
          )}

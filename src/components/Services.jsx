@@ -1,4 +1,4 @@
-import { Bike, Car, Van } from 'lucide-react';
+import { Bike, Car, Bus, Van } from 'lucide-react';
 
 const Services = () => {
   const services = [
@@ -15,10 +15,16 @@ const Services = () => {
       image: "/car.jpg",
     },
     {
+      icon: Bus,
+      title: "Bus Rides",
+      description: "Affordable group transportation for longer distances. Great for commuting and city-to-city travel.",
+      image: "bus.jpg",
+    },
+    {
       icon: Van,
       title: "Van Rides",
       description: "Perfect for groups, airport transfers, and larger luggage. Spacious and convenient.",
-      image: "/van.jpg",
+      image: "van.jpg",
     },
   ];
 
@@ -50,7 +56,7 @@ const Services = () => {
                     alt={service.title} 
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
+                  <div className="absolute inset-0 bg-linear-to-t from-black/50 to-transparent" />
                   <div className="absolute bottom-4 left-4">
                     <div className="inline-flex rounded-xl bg-white/90 p-3 text-emerald-600">
                       <Icon size={24} />

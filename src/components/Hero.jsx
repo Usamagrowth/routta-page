@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { MapPin, Car, Bike, Van, ArrowRight} from 'lucide-react';
+import { MapPin, Car, Bike, Bus, Van, ArrowRight} from 'lucide-react';
 import Button from './Button';
 
 const Hero = () => {
@@ -8,6 +8,7 @@ const Hero = () => {
   const vehicles = [
     { id: 'bike', icon: Bike, label: 'Bike' },
     { id: 'car', icon: Car, label: 'Car' },
+    { id: 'bus', icon: Bus, label: 'Bus' },
     { id: 'van', icon: Van, label: 'Van' },
   ];
 
@@ -71,7 +72,7 @@ const Hero = () => {
                   </div>
 
                   {/* Vehicle Selection */}
-                  <div className="grid grid-cols-3 gap-2">
+                  <div className="grid grid-cols-4 gap-2">
                     {vehicles.map((vehicle) => {
                       const Icon = vehicle.icon;
                       return (

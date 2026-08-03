@@ -1,4 +1,3 @@
-import React from 'react';
 import { ShieldCheck, MapPin, Phone, Lock, Eye, UserCheck, Share2 } from 'lucide-react';
 
 const Safety = () => {

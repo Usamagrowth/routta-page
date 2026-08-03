@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Mail, MapPin, } from 'lucide-react';
 import { FaFacebook, FaInstagram } from 'react-icons/fa';
-import { FaXTwitter } from 'react-icons/fa6';
+import { FaTiktok, FaWhatsapp, FaXTwitter } from 'react-icons/fa6';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -112,34 +112,41 @@ const Contact = () => {
             </div>
 
             <div>
-              <h3 className="text-2xl font-bold mb-6 text-gray-900">Follow Us</h3>
-              <div className="flex space-x-2">
-                <a
-                  href="https://facebook.com/routta"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-4 p-4 rounded-xl bg-white border border-gray-200 hover:border-emerald-300 transition-colors group"
-                >
-                  <FaFacebook />
-                </a>
-                <a
-                  href="https://instagram.com/routta_africa"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-4 p-4 rounded-xl bg-white border border-gray-200 hover:border-emerald-300 transition-colors group"
-                >
-                <FaInstagram />
-                </a>
-                <a
-                  href="https://twitter.com/routta_africa"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-4 p-4 rounded-xl bg-white border border-gray-200 hover:border-emerald-300 transition-colors group"
-                >
-               <FaXTwitter />
-                </a>
-              </div>
-            </div>
+                   <h3 className="text-2xl font-bold p-2 text-white">Follow Us</h3>
+                    <div className="flex space-x-4 p-2">
+                      <a href="https://www.facebook.com/share/1Cbbez1EyL/"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                        className="flex items-center gap-4 p-4 rounded-xl bg-white border border-gray-200 hover:border-black transition-colors"
+                       >
+                       <FaFacebook className='text-emerald-600' size={20} />
+                      </a>
+                     <a href="https://instagram.com/routta_africa"
+                       target="_blank" rel="noopener noreferrer"
+                       className="flex items-center gap-4 p-4 rounded-xl bg-white border border-gray-200 hover:border-black transition-colors"
+                      >
+                      <FaInstagram className='text-emerald-600' size={20} />
+                       </a>
+                       <a href="https://twitter.com/routta_africa"
+                        target="_blank" rel="noopener noreferrer"
+                        className="flex items-center gap-4 p-4 rounded-xl bg-white border border-gray-200 hover:border-black transition-colors"
+                     >
+                   <FaXTwitter className='text-emerald-600' size={20} />
+                   </a>
+                   <a href="https://www.tiktok.com/@routta_africa"
+                        target="_blank" rel="noopener noreferrer"
+                        className="flex items-center gap-4 p-4 rounded-xl bg-white border border-gray-200 hover:border-black transition-colors"
+                     >
+                   <FaTiktok className='text-emerald-600' size={20} />
+                   </a>
+                   <a href="https://whatsapp.com/channel/0029VbCe5ed545unxMgdQT2M"
+                        target="_blank" rel="noopener noreferrer"
+                        className="flex items-center gap-4 p-4 rounded-xl bg-white border border-gray-200 hover:border-black transition-colors"
+                     >
+                   <FaWhatsapp className='text-emerald-600' size={20} />
+                   </a>
+                  </div>
+                  </div>
           </div>
         </div>
       </div>

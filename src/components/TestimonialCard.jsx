@@ -1,8 +1,7 @@
-import React from 'react';
 
-const TestimonialCard = ({ name, role, content, avatar, rating }) => {
+const TestimonialCard = ({ name, role, content,  rating }) => {
   return (
-    <div className="p-6 rounded-2xl bg-gradient-to-br from-white/10 to-white/5 border border-white/10 hover:border-routta-teal/30 transition-all duration-300">
+    <div className="p-6 rounded-2xl bg-linear-to-br from-white/10 to-white/5 border border-white/10 hover:border-routta-teal/30 transition-all duration-300">
       <div className="flex items-center gap-1 mb-4">
         {[...Array(rating)].map((_, i) => (
           <svg key={i} className="w-5 h-5 text-routta-teal fill-current" viewBox="0 0 20 20">

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Route, Car, Clock, TrendingUp } from 'lucide-react';
 
 const Pricing = () => {
@@ -41,7 +40,7 @@ const Pricing = () => {
         </div>
 
         <div className="max-w-4xl mx-auto mb-12">
-          <div className="bg-gradient-to-r from-emerald-50 to-teal-50 rounded-3xl p-8 lg:p-12 border border-emerald-100">
+          <div className="bg-linear-to-r from-emerald-50 to-teal-50 rounded-3xl p-8 lg:p-12 border border-emerald-100">
             <h3 className="text-2xl font-bold mb-4 text-gray-900">How Pricing Works</h3>
             <p className="text-gray-600 mb-6 leading-relaxed">
               Estimated fares are calculated based on multiple factors to ensure fair pricing for both riders and drivers. You'll always see your estimated fare before confirming your ride.

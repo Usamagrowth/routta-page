@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { MapPin, Car, Bike, Van, ArrowRight } from 'lucide-react';
+import { MapPin, Car, Bike, Bus, Van, ArrowRight } from 'lucide-react';
 
 const BookingPreview = () => {
   const [vehicleType, setVehicleType] = useState('car');
@@ -8,7 +8,8 @@ const BookingPreview = () => {
 
   const vehicles = [
     { id: 'bike', icon: Bike, label: 'Bike', description: 'Fast & affordable' },
-    { id: 'car', icon: Car, label: 'Car', description: 'Relaxed ride' },
+    { id: 'car', icon: Car, label: 'Car', description: 'Comfortable ride' },
+    { id: 'bus', icon: Bus, label: 'Bus', description: 'Group travel' },
     { id: 'van', icon: Van, label: 'Van', description: 'For groups' },
   ];
 

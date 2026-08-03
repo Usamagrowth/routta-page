@@ -1,4 +1,3 @@
-import React from 'react';
 import { MapPin, ShieldCheck, Wallet, BarChart3, Zap, Headphones } from 'lucide-react';
 import FeatureCard from './FeatureCard';
 
