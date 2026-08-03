@@ -1,8 +1,10 @@
-import { Smartphone, Apple, PlayCircle } from 'lucide-react';
+import { Smartphone, Apple} from 'lucide-react';
+import { FaInstagram, FaXTwitter, FaFacebook } from 'react-icons/fa6';
+import { IoLogoGooglePlaystore } from 'react-icons/io5';
 
 const Download = () => {
   return (
-    <section id="download" className="py-20 lg:py-32 bg-gradient-to-r from-emerald-500 to-teal-500">
+    <section id="download" className="py-20 lg:py-32 bg-linear-to-r from-emerald-500 to-teal-500">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-white">
@@ -22,7 +24,7 @@ const Download = () => {
                 </div>
               </button>
               <button className="flex items-center gap-3 bg-white text-gray-900 px-6 py-4 rounded-xl hover:bg-gray-100 transition-colors">
-                <PlayCircle className='text-emerald-600' size={32} />
+                <IoLogoGooglePlaystore className='text-emerald-600' size={32} />
                 <div className="text-left">
                   <p className="text-xs text-gray-600">Get it on</p>
                   <p className="font-semibold">Google Play</p>
@@ -37,14 +39,14 @@ const Download = () => {
           </div>
 
           <div className="relative">
-            <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-8">
+            <div className="bg-white/10 rounded-3xl p-8">
               <div className="text-center">
                 <Smartphone className="mx-auto text-white mb-4" size={64} />
                 <h3 className="text-2xl font-bold text-white mb-2">Get Notified</h3>
                 <p className="text-white/80 mb-6">
                   Sign up to be the first to know when Routta launches
                 </p>
-                <div className="flex gap-3">
+                <div className="flex flex-col md:flex-row sm:flex-row gap-3">
                   <input
                     type="email"
                     placeholder="Enter your email"
@@ -56,6 +58,33 @@ const Download = () => {
                 </div>
               </div>
             </div>
+           <div>
+           <h3 className="text-2xl font-bold p-2 text-white">Follow Us</h3>
+            <div className="flex space-x-4 p-2">
+              <a
+                href="https://facebook.com/routta"
+               target="_blank"
+               rel="noopener noreferrer"
+                className="flex items-center gap-4 p-4 rounded-xl bg-white border border-gray-200 hover:border-black transition-colors"
+               >
+               <FaFacebook className='text-emerald-600' size={20} />
+              </a>
+             <a
+               href="https://instagram.com/routta_africa"
+               target="_blank" rel="noopener noreferrer"
+               className="flex items-center gap-4 p-4 rounded-xl bg-white border border-gray-200 hover:border-black transition-colors"
+              >
+              <FaInstagram className='text-emerald-600' size={20} />
+               </a>
+               <a
+                 href="https://twitter.com/routta_africa"
+                target="_blank" rel="noopener noreferrer"
+                className="flex items-center gap-4 p-4 rounded-xl bg-white border border-gray-200 hover:border-black transition-colors"
+             >
+           <FaXTwitter className='text-emerald-600' size={20} />
+           </a>
+          </div>
+         </div>
           </div>
         </div>
       </div>

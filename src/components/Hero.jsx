@@ -12,7 +12,7 @@ const Hero = () => {
   ];
 
   return (
-    <section id="hero" className="py-20 lg:py-32 bg-gradient-to-b from-emerald-50 to-white">
+    <section id="hero" className="py-20 lg:py-32 bg-linear-to-b from-emerald-50 to-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 animate-fade-in-up">

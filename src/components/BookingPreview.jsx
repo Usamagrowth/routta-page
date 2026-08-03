@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { MapPin, Car, Bike, Van, ArrowRight } from 'lucide-react';
 
 const BookingPreview = () => {
@@ -8,12 +8,12 @@ const BookingPreview = () => {
 
   const vehicles = [
     { id: 'bike', icon: Bike, label: 'Bike', description: 'Fast & affordable' },
-    { id: 'car', icon: Car, label: 'Car', description: 'Comfortable ride' },
+    { id: 'car', icon: Car, label: 'Car', description: 'Relaxed ride' },
     { id: 'van', icon: Van, label: 'Van', description: 'For groups' },
   ];
 
   return (
-    <section id="booking" className="py-20 lg:py-32 bg-gradient-to-b from-gray-50 to-white">
+    <section id="booking" className="py-20 lg:py-32 bg-linear-to-b from-gray-50 to-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <p className="text-sm font-semibold tracking-[0.3em] text-emerald-600 uppercase mb-4">

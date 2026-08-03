@@ -3,8 +3,8 @@ import routtaLogo from '../assets/routtaLogo.png';
 const Logo = ({ size = "medium" }) => {
   const sizeClasses = {
     small: "h-8 w-auto",
-    medium: "h-22 w-auto",
-    large: "h-14 w-auto",
+    medium: "h-28 w-auto",
+    large: "h-34 w-auto",
   };
 
   return (

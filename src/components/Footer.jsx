@@ -1,4 +1,3 @@
-import Logo from './Logo';
 
 const Footer = () => {
 
@@ -7,7 +6,7 @@ const Footer = () => {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
             <div className="space-y-4"> 
-              <Logo size="medium" />
+              <h3  className="font-semibold mb-4 text-gray-900">Routta</h3>
               <p className="text-sm text-gray-600 leading-relaxed">
                 Making transportation easier, faster, and more accessible across Africa.
               </p>
@@ -24,8 +23,7 @@ const Footer = () => {
               <h4 className="font-semibold mb-4 text-gray-900">Support</h4>
               <ul className="space-y-3 text-sm text-gray-600">
                 <li><a href="#faq" className="hover:text-emerald-600 transition-colors">FAQ</a></li>
-                <li><a href="#contact" className="hover:text-emerald-600 transition-colors">Contact</a></li>
-              </ul>
+               </ul>
             </div>
             <div>
               <h4 className="font-semibold mb-4 text-gray-900">Legal</h4>
